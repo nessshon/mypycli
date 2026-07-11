@@ -1,0 +1,51 @@
+"mypycli":
+  "message":
+    "welcome": "Welcome to {label}!\nType help for commands, Ctrl+D to exit."
+    "goodbye": "Exiting {label}. Bye!"
+  "commands":
+    "status":   "Show current status"
+    "modules":  "Show registered modules"
+    "versions": "Show component versions"
+    "history":  "Show command history"
+    "clear":    "Clear console screen"
+    "help":     "Show all commands"
+    "exit":     "Exit console"
+  "cli_commands":
+    "update":    "Run the updater"
+    "install":   "Run the installer"
+    "uninstall": "Run the uninstaller"
+  "prompt":
+    "select":
+      "bottom_instruction": "↑/↓ navigate · enter confirm"
+    "multiselect":
+      "bottom_instruction": "↑/↓ navigate · space toggle · enter confirm"
+    "number":
+      "bottom_instruction": "↑ increase · ↓ decrease · enter confirm"
+    "invalid_message":   "Invalid input"
+    "mandatory_message": "Cannot skip this prompt"
+  "error":
+    "user_canceled":   "Cancelled by user"
+    "unknown_command": "Unknown command: {name}"
+    "command_failed":  "Command failed: {error}"
+  "cli":
+    "select_modules":    "Select optional modules to install"
+    "unknown_modules":   "Unknown modules: {names}"
+    "installed":         "{name} installed"
+    "install_failed":    "{name} install failed"
+    "update_failed":     "{name} update failed"
+    "uninstall_confirm": "Uninstall all modules?"
+    "uninstalled":       "{name} uninstalled"
+    "uninstall_failed":  "{name} uninstall failed"
+  "common":
+    "yes":       "yes"
+    "no":        "no"
+    "name":      "Name"
+    "state":     "State"
+    "version":   "Version"
+    "component": "Component"
+    "before":    "Previous version"
+    "after":     "Current version"
+    "failed":    "failed"
+    "enabled":   "Enabled"
+    "disabled":  "Disabled"
+    "mandatory": "Mandatory"

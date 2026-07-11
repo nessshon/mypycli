@@ -1,0 +1,51 @@
+"mypycli":
+  "message":
+    "welcome": "欢迎使用 {label}！\n输入 help 查看命令，Ctrl+D 退出。"
+    "goodbye": "正在退出 {label}。再见！"
+  "commands":
+    "status":   "显示当前状态"
+    "modules":  "显示已注册模块"
+    "versions": "显示组件版本"
+    "history":  "显示命令历史"
+    "clear":    "清屏"
+    "help":     "显示所有命令"
+    "exit":     "退出控制台"
+  "cli_commands":
+    "update":    "运行更新程序"
+    "install":   "运行安装程序"
+    "uninstall": "运行卸载程序"
+  "prompt":
+    "select":
+      "bottom_instruction": "↑/↓ 导航 · enter 确认"
+    "multiselect":
+      "bottom_instruction": "↑/↓ 导航 · space 选择 · enter 确认"
+    "number":
+      "bottom_instruction": "↑ 增加 · ↓ 减少 · enter 确认"
+    "invalid_message":   "输入无效"
+    "mandatory_message": "无法跳过此项"
+  "error":
+    "user_canceled":   "用户已取消"
+    "unknown_command": "未知命令：{name}"
+    "command_failed":  "命令执行失败：{error}"
+  "cli":
+    "select_modules":    "选择要安装的可选模块"
+    "unknown_modules":   "未知模块：{names}"
+    "installed":         "{name} 已安装"
+    "install_failed":    "{name} 安装失败"
+    "update_failed":     "{name} 更新失败"
+    "uninstall_confirm": "卸载所有模块？"
+    "uninstalled":       "{name} 已卸载"
+    "uninstall_failed":  "{name} 卸载失败"
+  "common":
+    "yes":       "是"
+    "no":        "否"
+    "name":      "名称"
+    "state":     "状态"
+    "version":   "版本"
+    "component": "组件"
+    "before":    "旧版本"
+    "after":     "当前版本"
+    "failed":    "失败"
+    "enabled":   "已启用"
+    "disabled":  "已禁用"
+    "mandatory": "必需"

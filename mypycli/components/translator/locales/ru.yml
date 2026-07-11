@@ -1,0 +1,51 @@
+"mypycli":
+  "message":
+    "welcome": "Добро пожаловать в {label}!\nНаберите help для списка команд, Ctrl+D для выхода."
+    "goodbye": "Выход из {label}. До встречи!"
+  "commands":
+    "status":   "Показать текущий статус"
+    "modules":  "Показать зарегистрированные модули"
+    "versions": "Показать версии компонентов"
+    "history":  "Показать историю команд"
+    "clear":    "Очистить экран консоли"
+    "help":     "Показать все команды"
+    "exit":     "Выйти из консоли"
+  "cli_commands":
+    "update":    "Запустить обновление"
+    "install":   "Запустить установщик"
+    "uninstall": "Запустить удаление"
+  "prompt":
+    "select":
+      "bottom_instruction": "↑/↓ навигация · enter подтвердить"
+    "multiselect":
+      "bottom_instruction": "↑/↓ навигация · space выбрать · enter подтвердить"
+    "number":
+      "bottom_instruction": "↑ прибавить · ↓ убавить · enter подтвердить"
+    "invalid_message":   "Неверный ввод"
+    "mandatory_message": "Этот шаг нельзя пропустить"
+  "error":
+    "user_canceled":   "Отменено пользователем"
+    "unknown_command": "Неизвестная команда: {name}"
+    "command_failed":  "Ошибка команды: {error}"
+  "cli":
+    "select_modules":    "Выберите опциональные модули для установки"
+    "unknown_modules":   "Неизвестные модули: {names}"
+    "installed":         "{name} установлен"
+    "install_failed":    "{name}: ошибка установки"
+    "update_failed":     "{name}: ошибка обновления"
+    "uninstall_confirm": "Удалить все модули?"
+    "uninstalled":       "{name} удалён"
+    "uninstall_failed":  "{name}: ошибка удаления"
+  "common":
+    "yes":       "да"
+    "no":        "нет"
+    "name":      "Имя"
+    "state":     "Состояние"
+    "version":   "Версия"
+    "component": "Компонент"
+    "before":    "Предыдущая версия"
+    "after":     "Текущая версия"
+    "failed":    "ошибка"
+    "enabled":   "Включён"
+    "disabled":  "Выключен"
+    "mandatory": "Обязательный"
